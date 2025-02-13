@@ -145,7 +145,7 @@ CREATE DATABASE geodata  WITH
     CONNECTION LIMIT = -1
     TEMPLATE template0;
 
-    GRANT ALL PRIVILEGES ON DATABASE geodata TO pladias;geodata
+    GRANT ALL PRIVILEGES ON DATABASE geodata TO pladias;
     GRANT CONNECT ON DATABASE geodata TO mapadmin;
     GRANT CONNECT ON DATABASE geodata TO geoserver;
     GRANT CONNECT ON DATABASE geodata TO public_web;
