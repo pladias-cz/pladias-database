@@ -13,6 +13,7 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" <<-EOSQL
     CREATE USER dal_public_web WITH PASSWORD 'dal_public_web';
     CREATE USER cevs WITH PASSWORD 'cevs';
     CREATE USER api WITH PASSWORD 'api';
+    CREATE USER api_user WITH PASSWORD 'api_user';
 EOSQL
 
 #pladias
