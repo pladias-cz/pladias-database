@@ -1,4 +1,4 @@
-FROM ghcr.io/pladias-cz/database-base:main@sha256:563818cea4435c3b35862a2b5edd14222616ecb88c78afff28231d121a0a7d4a
+FROM ghcr.io/pladias-cz/database-base:main@sha256:3ca22d4ebe1fa19633d842498a78d7778afad9b6185ec0859bbeeab8dfde72c3
 
 LABEL org.opencontainers.image.source=https://github.com/pladias-cz/pladias-database
 LABEL org.opencontainers.image.description="Postgres/PostGIS base image for Pladias apps"
